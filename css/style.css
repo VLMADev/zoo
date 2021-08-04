@@ -5,10 +5,39 @@ body {
 .container {
     width: 1440px;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgba(243, 252, 133, 0.4);
+    
 }
 
 .header-bgr-color {
     background-color: #2A8086;
     height: 110px;
+    overflow: hidden;
+    /* для фона контенера что бы не вылазил */
+}
+
+.header-block {
+    display: flex;
+    max-width: 100%;
+    
+}
+.hedaer-block-logo {
+}
+.hedaer-block-list-items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.heder-list-first {
+}
+.list-first {
+}
+.item {
+}
+.item-first {
+}
+.heder-list-second {
+}
+.list-second {
 }
