@@ -79,11 +79,15 @@ ul,li {
 
 .main-header-bgr-img img {
     /* background: url(/image/png/bgr-header.png); */
-    max-width: 100%;
+    
     position: absolute;
     z-index: -2;
 }
+.main-header-img {
+    width: 100%;
+}
 .main-header-block {
+    position: relative;
     display: flex;
 }
 .main-header-block-text {
@@ -130,4 +134,18 @@ ul,li {
     font-size: 18px;
 }
 .main-header-block-video {
+    
+}
+.main-video-bgr {
+    position: relative;
+    right: 0px;
+}
+.main-video-play {
+    position: relative;
+    display: inline-block;
+    background: url(/image/png/YT.png);
+    background-size: 100%;
+    top: 65%;
+    right: 21%;
+  
 }
